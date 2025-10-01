@@ -5,12 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "certifi>=2025.8.3",
     "datasets==3.6.0",
     "insightface>=0.7.3",
+    "jaxtyping>=0.3.2",
+    "jupyter>=1.1.1",
     "numpy>=2.3.3",
     "onnxruntime>=1.23.0",
     "opencv-python>=4.11.0.86",
     "pillow>=11.3.0",
     "torch>=2.8.0",
     "torchvision>=0.23.0",
+    "tqdm>=4.67.1",
 ]
